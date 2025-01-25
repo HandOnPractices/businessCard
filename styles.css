@@ -31,7 +31,12 @@ body {
     and use it in your business card.
      */
 }
-
+@media screen and (max-width: 600px) {
+    .card {
+        flex-direction: column;
+    }
+    
+}
 .border-blue {
     border: 1px dotted blue;
 }
