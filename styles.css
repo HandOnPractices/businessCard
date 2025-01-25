@@ -15,7 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: #16A29C;
+    background: linear-gradient(135deg, #17b7a1, #fff);
     color: #2b2839;
     border-bottom: 6px solid #d8cefe;
     border-radius: 10px; /* Rounded corners */
@@ -27,7 +27,8 @@ body {
     transform: scale(1.05); /* Slight zoom effect on hover */
 }
 a:hover{
-    color:bisque;
+    color:rgb(183, 113, 28);
+    transition: transform 0.3s ease-in-out;
 }
 
 .avatar {
